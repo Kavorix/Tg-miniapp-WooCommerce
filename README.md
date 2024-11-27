@@ -6,7 +6,7 @@ Mini Woo is a project that allows you to create a [mini app](https://core.telegr
 
 It uses [Next.js](https://nextjs.org/), a React framework for building fast and scalable web applications, and the Telegram [Bot API](https://core.telegram.org/bots/api) and the WooCommerce [REST API](https://woocommerce.github.io/woocommerce-rest-api-docs/) to provide a seamless shopping experience for your customers on Telegram. 
 
-You can use this project as a template to customize your mini app with your own branding, products, and features, or modify the API to connect any other online store that supports RESTful web services. This project is open source and free to use. You can find the source code, documentation, and installation instructions [here on GitHub](https://github.com/mini-woo/mini-woo).
+You can use this project as a template to customize your mini app with your own branding, products, and features, or modify the API to connect any other online store that supports RESTful web services. This project is open source and free to use. You can find the source code, documentation, and installation instructions
 
 ## Requirements
 
@@ -72,8 +72,6 @@ Set environment variables then run:
 npm run dev
 ```
 
-you can use https://ngrok.com/
-
 ### Init Telegram Bot API Webhook
 
 This is the last step! You need to set up a webhook for your Telegram bot to receive updates from Telegram. To do this, you just need to make a POST request to the following URL:
@@ -98,16 +96,4 @@ Now your mini app is ready! You can test it by sending commands or messages to y
 - [ ] Support other payment methods
 - [ ] more...
 
-## Learn More
-
-To learn more, take a look at the following resources:
-
-- [Telegram Mini App](https://core.telegram.org/bots/webapps) - Starting point to learn about telegram web apps.
-- [Telegram Bot API](https://core.telegram.org/bots/api) - Telegram Bot API full documentation.
-- [Telegraf.js](https://telegraf.js.org/index.html) - Modern Telegram Bot API framework for Node.js (documents).
-- [WooCommerce API](https://woocommerce.github.io/woocommerce-rest-api-docs) - WooCommerce REST api documentation.
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-Your feedback and contributions are welcome!
 
